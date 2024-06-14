@@ -1,0 +1,12 @@
+Source: QTGL
+Section: misc
+Priority: optional
+Maintainer: XZYi <2140235562@qq.com>
+Build-Depends: debhelper (>= 9), qtbase5-dev, libgl1-mesa-dev, libglu1-mesa-dev, freeglut3-dev
+Standards-Version: 3.9.6
+
+Package: QTGL
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: QT&OpenGL ChaHu
+
